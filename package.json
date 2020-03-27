@@ -4,7 +4,7 @@
 	"description": "A fullstack Todolist app built using Vue.js, Express.js and MySQL using sequelize",
 	"scripts": {
 		"heroku-postbuild": "npm run build-client && npm run install-server",
-		"start": "node server/src/app.js",
+		"start": "node app.js",
 		"build-client": "cd ./client && npm install && npm run build",
 		"install-server": "cd ./server && npm install"
 	},
